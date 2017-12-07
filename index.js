@@ -1,7 +1,3 @@
-var seconds = document.querySelectorAll('.time')[3];
-var minutes = document.querySelectorAll('.time')[2];
-var hours = document.querySelectorAll('.time')[1];
-var hours = document.querySelectorAll('.time')[0];
 setInterval(() => {
   tick();
 }, 1000);
